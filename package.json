@@ -1,0 +1,24 @@
+{
+  "name": "eslint-webpack-babel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/bundle.js",
+    "start-dev": "NODE_ENV=developer node dist/bundle.js",
+    "build": "./node_modules/webpack/bin/webpack.js --mode development",
+    "lint": "./node_modules/tslint/bin/tslint 'src/**/*.{ts,tsx}'"
+  },
+  "author": "time2funk",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^5.3.0",
+    "tslint": "^5.11.0",
+    "tslint-webpack-plugin": "^1.2.2",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+    	"indent": ["error", "tab"],
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "one-line": false,
+        "no-trailing-whitespace": false,
+        "comment-format": false,
+        "quotemark": false,
+        "no-console": false,
+        "no-consecutive-blank-lines": false,
+        "curly": false,
+        // "space-before-function-paren": true
+        "space-before-function-paren": [true, {
+    		"anonymous": "never", 
+    		"named": "always", 
+    		"asyncArrow": "never"
+        }]
+    },
+    "rulesDirectory": []
+}
