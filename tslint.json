@@ -14,7 +14,6 @@
         "no-console": false,
         "no-consecutive-blank-lines": false,
         "curly": false,
-        // "space-before-function-paren": true
         "space-before-function-paren": [true, {
     		"anonymous": "never", 
     		"named": "always", 
